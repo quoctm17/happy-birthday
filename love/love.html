@@ -14,6 +14,9 @@
     />
   </head>
   <body>
+
+    <iframe src="../audio-player.html" style="display: none;"></iframe>
+
     <div class="wrapper">
       <!-- <img src="../thư love.png" alt=""> -->
       <div class="formInput">
@@ -26,10 +29,16 @@
         <div class="boxSlider">
           <div class="listSlider">
             <div class="slider">
-              <img src="../image/love1.jfif" alt="" />
+              <img src="../image/Penguin-1.jpg" alt="" />
             </div>
             <div class="slider">
-              <img src="../image/love2.png" alt="" />
+              <img src="../image/Penguin-2.webp" alt="" />
+            </div>
+            <div class="slider">
+              <img src="../image/Penguin-3.jpg" alt="" />
+            </div>
+            <div class="slider">
+              <img src="../image/Penguin-4.jpg" alt="" />
             </div>
           </div>
           <div class="left">
@@ -46,7 +55,7 @@
           <input
             type="text"
             id="inputField"
-            placeholder="Gửi cho người dễ thương nhất trên thế giới..."
+            placeholder="Gửi em bé dễ thương của anh..."
             readonly
           />
         </div>
@@ -231,13 +240,13 @@
 
       setTimeout(() => {
         typeText();
-      }, 11500);
+      }, 13000);
     });
 
     // .textLetter text h2
     let indexText = 0;
     let textLetter = document.querySelector(".textLetter h2");
-    const textLetterH2 = "Gửi em!";
+    const textLetterH2 = "Gửi em bé cánh cụt đáng iu!";
     let timoutTextLetter;
 
     function textCharLetter() {
@@ -264,7 +273,7 @@
     // chữ của thư bạn muốn gửi
     let indexTextContent = 0;
     let textLetterContent = document.querySelector(".contentLetter");
-    const textLetterP = "Happy Birthday";
+    const textLetterP = "HAPPY BIRTHDAY EM BÉ CỦA ANH. Nhân ngày sinh nhật dễ thương này, chúc em bé của anh tuổi mới ngày càng xinh đẹp, học giỏi, nhiều sức khỏe để hong còn bệnh vặt, ngày càng dễ thương hơn nữa. Thi gì cũng pass xanh lè, GPA 3-4 chấm. Hong còn bị áp bức bóc lột bởi nhà dì Út và chị Ty. Mẹ lúc nào cũng iu thương hăm la mắng. Họ hàng thì sống thân thiện và dễ chịu hơn với em bé của anh. Em iu luôn vui vẻ, luôn mỉm cười và thật nhiều niềm tim iu nè :3";
     let timoutTextLetterContent;
     function textCharLetterContent() {
       if (indexTextContent < textLetterP.length) {

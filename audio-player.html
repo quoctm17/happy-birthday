@@ -1,0 +1,14 @@
+<!-- audio-player.html -->
+<audio id="myAudio" loop controls>
+    <source src="hpbdsong.mp3" type="audio/mp3" />
+  </audio>
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var audio = document.getElementById("myAudio");
+      if (audio) {
+        audio.play();
+      }
+    });
+  </script>
+  
